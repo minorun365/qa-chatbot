@@ -122,7 +122,7 @@ st.set_page_config(
 )
 
 st.title("ハンズオンお助けチャットボット")
-st.markdown("Strands Agentsが、MCPやナレッジベースを使ってサポートします。")
+st.markdown("Strands Agentsが、RAGやWeb検索ツールを使ってサポートします。")
 
 # ===== チャット履歴の初期化 =====
 if "messages" not in st.session_state:
