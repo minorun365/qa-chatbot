@@ -125,7 +125,7 @@ st.set_page_config(
 )
 
 st.title("ハンズオンお助けチャットボット")
-st.markdown("簡単なFAQならチューターの代わりに答えられます。機密情報は入れないでね！")
+st.markdown("Strands Agentがチューターの代わりに答えてくれます。機密情報は入れないでね！")
 
 # ===== チャット履歴の初期化 =====
 if "messages" not in st.session_state:
